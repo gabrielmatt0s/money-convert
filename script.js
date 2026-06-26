@@ -5,8 +5,8 @@ function convertValues(){
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert")
     const currencyValueConverted = document.querySelector(".currency-value")
    
-    const dolarToday = 5.2  
-    const euroToday = 6.2
+    const dolarToday = 5.19  
+    const euroToday = 5.91
 
     if (currencySelect.value=="dol"){
     currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US",{
@@ -40,7 +40,7 @@ function convertValues(){
         currencyName.innerHTML = "Euro"
         currencyImage.src = "./assets/euro.png" 
         }
-        
+
         convertValues()
     }
 
