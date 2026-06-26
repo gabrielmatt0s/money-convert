@@ -7,12 +7,6 @@ O projeto permite converter valores em **Real (BRL)** para **Dólar Americano (U
 
 ---
 
-## 📸 Preview
-
-<img src="./assets/preview.png" alt="Preview do projeto" width="300">
-
----
-
 ## 🚀 Funcionalidades
 
 - ✅ Conversão de Real para Dólar
