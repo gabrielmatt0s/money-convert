@@ -1,20 +1,33 @@
-# money-convert
 # 💰 Money Convert
 
-Um conversor de moedas desenvolvido com **HTML**, **CSS** e **JavaScript**.
-
-O projeto permite converter valores em **Real (BRL)** para **Dólar Americano (USD)** e **Euro (EUR)**, atualizando os valores, o nome da moeda e sua respectiva bandeira dinamicamente.
-
----
+Um conversor de moedas desenvolvido com **HTML**, **CSS** e **JavaScript**, capaz de converter valores entre diferentes moedas de forma dinâmica.
 
 ## 🚀 Funcionalidades
 
-- ✅ Conversão de Real para Dólar
-- ✅ Conversão de Real para Euro
-- ✅ Atualização automática do valor convertido
-- ✅ Alteração dinâmica do nome da moeda
-- ✅ Alteração dinâmica da bandeira da moeda
-- ✅ Interface responsiva e moderna
+- ✅ Conversão entre Real (BRL), Dólar (USD), Euro (EUR), Libra Esterlina (GBP) e Bitcoin (BTC)
+- ✅ Conversão em qualquer direção
+  - BRL → USD
+  - USD → BRL
+  - EUR → BTC
+  - BTC → GBP
+  - E qualquer outra combinação disponível
+- ✅ Atualização dinâmica dos valores
+- ✅ Atualização automática do nome da moeda
+- ✅ Atualização automática da bandeira da moeda
+- ✅ Formatação internacional utilizando `Intl.NumberFormat`
+- ✅ Interface responsiva
+
+---
+
+## 💱 Moedas disponíveis
+
+| Moeda | Código |
+|-------|--------|
+| 🇧🇷 Real | BRL |
+| 🇺🇸 Dólar Americano | USD |
+| 🇪🇺 Euro | EUR |
+| 🇬🇧 Libra Esterlina | GBP |
+| ₿ Bitcoin | BTC |
 
 ---
 
@@ -34,25 +47,30 @@ Durante o desenvolvimento deste projeto foram utilizados conceitos como:
 - querySelector()
 - getElementById()
 - addEventListener()
+- Objetos JavaScript
 - Funções
-- Condicionais (`if`)
-- Eventos (`click` e `change`)
+- Eventos
+- Condicionais
 - Manipulação de atributos (`src`)
 - Manipulação de texto (`innerHTML`)
-- Formatação de moedas com `Intl.NumberFormat`
+- Conversão entre moedas
+- Formatação internacional com `Intl.NumberFormat`
 
 ---
 
-## 📂 Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```
 money-convert/
 │
 ├── assets/
 │   ├── arrow.png
+│   ├── bitcoin.png
 │   ├── dollar.png
 │   ├── euro.png
+│   ├── libra.png
 │   ├── logo.gif
+│   ├── preview.png
 │   └── real.png
 │
 ├── index.html
@@ -65,26 +83,31 @@ money-convert/
 
 ## ▶️ Como executar
 
-1. Clone este repositório
+Clone o repositório:
 
 ```bash
 git clone https://github.com/gabrielmatt0s/money-convert.git
 ```
 
-2. Abra a pasta do projeto.
+Entre na pasta:
 
-3. Abra o arquivo `index.html` no navegador.
+```bash
+cd money-convert
+```
+
+Abra o arquivo `index.html` no navegador.
 
 ---
 
 ## 📈 Próximas melhorias
 
-- Buscar a cotação em tempo real através de uma API
-- Adicionar novas moedas
-- Melhorar a responsividade
-- Permitir converter nos dois sentidos
-- Adicionar animações durante a conversão
-- Validação do campo de entrada
+- Buscar cotações em tempo real através de uma API
+- Atualização automática das taxas de câmbio
+- Campo de entrada aceitando diferentes formatos numéricos
+- Botão para inverter moedas
+- Histórico de conversões
+- Tema claro/escuro
+- Mais moedas disponíveis
 
 ---
 
